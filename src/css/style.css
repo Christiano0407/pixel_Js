@@ -20,9 +20,6 @@
     html {
         font-size: 62.5%;
     }
-    body {
-        font-family: 'Montserrat', sans-serif;
-    }
     ul {
       list-style: none;
     }
@@ -35,3 +32,23 @@
       background-position: center;
       background-size: cover;
     }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+    }
+    #canvas1 {
+      width: 800px;
+      height: 450px;
+      border: 3px solid #ffffff;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+     /*  background-image: url(../assets/images/jakob-owens-ycExgCMRggc-unsplash.jpg); */
+      /* background-image: url(../assets/images/louis-hansel-shotsoflouis-e96ST3p7tn4-unsplash.jpg); */
+    }
+  
+
+
